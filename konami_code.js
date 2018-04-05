@@ -9,21 +9,14 @@ const key = parseInt(e.detail || e.which);
 
 if (key === code[index]) {
     index++;
-
-}
-
-//notes under this  
-//const key = parseInt(e.detail || e.which);
- 
-  if (key === alphabet[index]) {
-    index++;
- 
-    if (index === alphabet.length) {
+    
+    if (index === code.length) {
       alert("Hurray!");
  
       index = 0;
     }
-  } else {
-    index = 0;
-  }
+} else {
+  index = 0;
+}
 
+}
