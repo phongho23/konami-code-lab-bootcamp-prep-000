@@ -5,7 +5,7 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
 
-document.body.
+document.addEventListener
 const key = parseInt(e.detail || e.which);
 
 if (key === code[index]) {
