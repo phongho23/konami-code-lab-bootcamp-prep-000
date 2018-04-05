@@ -5,7 +5,13 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
 
-const key = parseInt(e.detail || e.which);
+
+
+
+}
+
+//notes under this  
+//const key = parseInt(e.detail || e.which);
  
   if (key === alphabet[index]) {
     index++;
@@ -19,6 +25,3 @@ const key = parseInt(e.detail || e.which);
     index = 0;
   }
 
-
-
-}
